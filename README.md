@@ -2,7 +2,7 @@
 
 ## 🧪 Context & Motivation
 
-As part of my preparation for an upcoming internship involving astrophysical data analysis, I designed this project to deepen my understanding of spectroscopic datasets and machine learning applications in astronomy.  
+As part of my preparation for an upcoming erasmus+ internship involving astrophysical data analysis, I designed this project to deepen my understanding of spectroscopic datasets and machine learning applications in astronomy.  
 This notebook explores how deep learning techniques can be used to predict stellar ages using the GALAH DR4 survey — one of the largest high-resolution spectroscopic datasets available.
 
 ---
