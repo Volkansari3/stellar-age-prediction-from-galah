@@ -16,7 +16,6 @@ The project is organized into four main sections:
 ## 1️⃣ Data Analysis
 
 - Selected a subset of the GALAH DR4 dataset by focusing on meaningful spectroscopic and stellar parameters.
-- Reduced dimensionality to focus on 131 relevant features.
 - Performed exploratory data analysis (EDA) using histograms, scatter plots, and correlation analysis.
 - Visualizations helped understand the age distribution, feature relationships, and potential outliers in the dataset.
 
@@ -28,6 +27,7 @@ The project is organized into four main sections:
   - Imputed missing data where appropriate.
   - Removed rows with excessive missingness or invalid values.
 - Normalized all numerical features for neural network input.
+- Reduced dimensionality to focus on 131 relevant features.
 - Final shape of the dataset: `900,000 samples × 131 features`
 
 ---
@@ -38,7 +38,7 @@ The project is organized into four main sections:
 - Architecture:
   - Dense layers with ReLU activation
   - Output: 1 node (regression target = stellar age)
-- Trained for 80 epochs with a batch size tuned to GPU capacity.
+- Trained for 100 epochs with a batch size tuned to GPU capacity.
 - Used `mean_squared_error` as the loss function and `Adam` as the optimizer.
 
 ---
@@ -68,7 +68,6 @@ The model achieved **high accuracy** in age prediction across the dataset, which
 To assess model reliability beyond metrics:
 - Compared the predicted vs. actual ages for the first 10 test samples.
 - Plotted residual errors to evaluate model consistency and outliers.
-
 
 ---
 
