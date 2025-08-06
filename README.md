@@ -69,14 +69,6 @@ To assess model reliability beyond metrics:
 - Compared the predicted vs. actual ages for the first 10 test samples.
 - Plotted residual errors to evaluate model consistency and outliers.
 
----
-
-## ✅ Summary
-
-This project demonstrates:
-- How deep learning can model complex stellar parameters
-- That large spectroscopic datasets like GALAH DR4 are suitable for machine learning
-- How to handle preprocessing and evaluation at scale (900K+ samples)
 
 ---
 
@@ -86,6 +78,16 @@ This project demonstrates:
 - TensorFlow / Keras
 - Astropy (for FITS file handling)
 - Matplotlib for visualizations
+
+---
+
+### 🔗 Dataset
+
+The GALAH DR4 dataset is publicly available at:
+
+[GALAH DR4 Website](https://www.galah-survey.org)
+
+Due to size and license limitations, the dataset is not included in this repository.
 
 ---
 
