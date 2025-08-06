@@ -90,8 +90,5 @@ Due to size and license limitations, the dataset is not included in this reposit
 
 ---
 
-## 📌 Note
-
-This project was developed as a **self-directed learning initiative** to support future research and internship work on similar spectroscopic datasets.
 
 > ⭐️ *Prepared using real stellar data from the GALAH DR4 survey. All code and analysis are available in the accompanying Jupyter Notebook.*
