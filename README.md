@@ -1,4 +1,4 @@
-# 🌟 Stellar Age Prediction from GALAH DR4 Spectral Data Using Deep Learning
+# 🌟 Stellar Age Prediction from GALAH DR4 Spectral Data
 
 ## 🧪 Context & Motivation
 
